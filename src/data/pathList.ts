@@ -1,0 +1,1 @@
+export const BASE_DEV_PATH = "http://localhost:8000/";

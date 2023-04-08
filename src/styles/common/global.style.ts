@@ -3,6 +3,9 @@ import reset from "styled-reset";
 
 export const GlobalStyle = createGlobalStyle`
   ${reset}
+  *{
+    box-sizing: border-box;
+  }
   a {
     color: #0b2239;
     text-decoration: none;
@@ -23,9 +26,5 @@ export const GlobalStyle = createGlobalStyle`
     border: none;
     outline: none;
     display: block;
-  }
-  .common_wrapper{
-    width: 1110px;
-    margin: 0 auto;
   }
 `;
