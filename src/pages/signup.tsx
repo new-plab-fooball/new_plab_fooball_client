@@ -7,8 +7,8 @@ import { BASE_DEV_PATH } from "../data/pathList";
 import {
   NormalButtonStyle,
   SubmitButtonStyle,
-} from "../styles/common/button.style";
-import { AuthNumInputFlexBox } from "../styles/common/input.style";
+} from "../styles/input/button.style";
+import { AuthNumInputFlexBox } from "../styles/input/input.style";
 import { AccountsMove, AccountsTitle } from "../styles/page/accounts.style";
 import { SignUpContainer, SignUpForm } from "../styles/page/signup.style";
 

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { TagBoxContainer } from '../../styles/common/tags.style';
+import { TagBoxContainer } from '../../styles/input/tags.style';
 import Label from './label';
 import Tag from './tag';
 

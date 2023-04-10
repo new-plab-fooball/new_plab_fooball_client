@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction, useState } from 'react';
-import { TagContainer } from '../../styles/common/tags.style';
+import { TagContainer } from '../../styles/input/tags.style';
 
 const Tag = (
   {

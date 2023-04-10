@@ -1,4 +1,4 @@
-import { CheckBoxListContainer } from '../../styles/common/checkBox.style';
+import { CheckBoxListContainer } from '../../styles/input/checkBox.style';
 import Checkbox from './checkBox';
 
 type CheckBoxListType = {

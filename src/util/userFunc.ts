@@ -10,5 +10,5 @@ export const IsLoginCkeck = () => {
 }
 
 export const getUserInfo = () => {
-    
+   return localStorage.getItem("user")
 }

@@ -1,4 +1,4 @@
-import { ChangeEvent,KeyboardEvent, useState } from 'react';
+import { ChangeEvent, useState } from 'react';
 
 type NumberInputType = {
     tags:number[]
