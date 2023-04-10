@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ModalBackground } from "../../styles/common/public.style";
-import { Option, OptionsTitle, OptionsWrapper, SelectContainer, SelectOnButton } from "../../styles/common/select.style";
+import { Option, OptionsTitle, OptionsWrapper, SelectContainer, SelectOnButton } from "../../styles/input/select.style";
 import Label from "./label";
 
 type CustomSelectType = {

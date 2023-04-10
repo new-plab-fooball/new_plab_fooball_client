@@ -3,8 +3,8 @@ import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { BASE_DEV_PATH } from "../data/pathList";
-import { SubmitButtonStyle } from "../styles/common/button.style";
-import { NormalInputStyle } from "../styles/common/input.style";
+import { SubmitButtonStyle } from "../styles/input/button.style";
+import { NormalInputStyle } from "../styles/input/input.style";
 import { AccountsMove } from "../styles/page/accounts.style";
 import { LoginForm } from "../styles/page/login.style";
 import { IsLoginCkeck } from "../util/userFunc";
@@ -21,6 +21,7 @@ const Login = () => {
         },
       });
       alert(data.message);
+      localStorage.setItem("user",JSON.stringify(data.user))
       navigate("/home");
     } catch (error) {
       console.log(error);

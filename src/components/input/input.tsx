@@ -4,7 +4,7 @@ import {
   NormalInputContainer,
   NormalInputLabel,
   NormalInputStyle,
-} from "../../styles/common/input.style";
+} from "../../styles/input/input.style";
 
 type InputType = {
   type?: "text" | "password" | "email" | "number";

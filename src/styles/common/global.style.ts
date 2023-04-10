@@ -27,4 +27,7 @@ export const GlobalStyle = createGlobalStyle`
     outline: none;
     display: block;
   }
+  .font_color_main{
+    color: rgb(21, 112, 255);
+  }
 `;

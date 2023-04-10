@@ -6,7 +6,6 @@ import Home from "./pages/home";
 import MyPage from "./pages/mypage";
 import Payments from "./pages/payments";
 import { GlobalStyle } from "./styles/common/global.style";
-import "./public.css"
 
 function App() {
   return (

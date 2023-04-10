@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { CheckBoxContainer, CheckBoxLabel, CheckBoxMark, CheckBoxMarkContainer } from '../../styles/common/checkBox.style';
+import { CheckBoxContainer, CheckBoxLabel, CheckBoxMark, CheckBoxMarkContainer } from '../../styles/input/checkBox.style';
 
 type CheckBoxType = {
     onChange?:CallableFunction
